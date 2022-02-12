@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 import time
 
-cap = cv2.VideoCapture("http://192.168.91.186:8080/video")
+cap = cv2.VideoCapture(0)
 
 def make_1080p():
     cap.set(3, 1920)
