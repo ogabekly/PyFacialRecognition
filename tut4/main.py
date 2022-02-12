@@ -1,8 +1,7 @@
 import cv2 
  
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_alt2.xml')
-cap = cv2.VideoCapture("http://192.168.91.186:8080/video")
-# cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(0)
 
 
 rect_color = (255, 0, 0)
